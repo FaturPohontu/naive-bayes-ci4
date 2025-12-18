@@ -7,7 +7,7 @@
             <h1 class="display-5 fw-bold">Sistem Prediksi Cafe</h1>
             <p class="col-md-8 fs-4 mx-auto">Selamat datang! Sistem ini menggunakan algoritma Naive Bayes untuk memprediksi tingkat penjualan berdasarkan cuaca dan hari.</p>
             
-            <a href="<?= base_url('prediction') ?>" class="btn btn-primary btn-lg" type="button">Mulai Prediksi</a>
+            <a href="<?= base_url('login') ?>" class="btn btn-primary btn-lg">Login User</a>
         </div>
     </div>
 </div>

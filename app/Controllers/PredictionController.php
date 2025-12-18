@@ -61,7 +61,7 @@ class PredictionController extends BaseController
         return view('prediction/result', [
             'input' => $input,
             'hasil' => $hasil,
-            'id'    => $id_history
+            'id_history'    => $id_history
         ]);
     }
 
