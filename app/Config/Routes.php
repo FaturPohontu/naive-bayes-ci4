@@ -14,7 +14,6 @@ $routes->post('/login/auth', 'AuthController::loginProcess');
 $routes->get('/logout', 'AuthController::logout');
 
 // 3. AREA KHUSUS (Harus Login Dulu)
-// Kita grupkan dan pasang filter 'auth'
 $routes->group('', ['filter' => 'auth'], function($routes) {
     
     // Fitur Prediksi (Dashboard Utama)

@@ -12,7 +12,7 @@ class PredictionController extends BaseController
     // 1. Tampilkan Halaman Form
     public function index()
     {
-        // Cek login sederhana (bisa dikembangkan nanti)
+        // 
         return view('prediction/form');
     }
 
